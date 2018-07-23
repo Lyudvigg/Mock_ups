@@ -1,0 +1,856 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    max-width: 1920px;
+    padding: 0px;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+/*--------------------------Left-menu----------------------------*/
+nav.navbar.navbar-fixed-left{
+    padding: 0px 0px 288px;
+    width: 120px;
+    background-color: #2B343E;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    float: left;
+}
+
+.iu_connect_logo {
+    position: absolute;
+    top: -2px;
+    right: 42px;
+    transform: rotate(180deg);
+}
+
+.iu_connect_text {
+    font-size: 7.64pt;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 22.93pt;
+}
+
+.nav-link:hover {
+    color: #c3c3c3;
+} 
+
+.navbar-fixed-left ul li.nav-item {
+    height: 100px;
+}
+
+li.nav-item:hover {
+    background-color: rgb(0,0,0,0);
+}
+
+.nav-item:hover .left_line {
+    display: block;
+}
+
+.left_line {
+    width: 6px;
+    height: 100px;
+    background-color: #23ADD8;
+    float: left;
+}
+
+.left_line {
+    display: none;
+}
+
+.bottom_line {
+    width: 101px;
+    height: 1px;
+    background-color: #4B525B;
+    margin: auto;
+    position: relative;
+    top: 29.3px;
+}
+
+.nav-item:hover .bottom_line {
+    display: none;
+}
+
+.messagesCountValue, .emailmessagesCountValue, .missedCallsCountValue {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 6pt;
+    height: 25px;
+    width: 25px;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 50%;
+    position: absolute;
+    padding-top: 6.6px;
+}
+
+.messagesCountValue {
+    right: 18px;
+    top: 319px;
+    background-color: #BEA0F4;
+}
+
+.emailmessagesCountValue {
+    top: 417px;
+    right: 18px;
+    background-color: #F8D02E;
+}
+
+.missedCallsCountValue {
+    top: 212px;
+    right: 18px;
+    background-color: #27C24D;
+}
+
+/*------------------------------Header--------------------------------------------*/
+
+nav.navbar.navbar-expand-xl.navbar-light {
+    max-width: 1695px;
+    padding: 19.5px 0px;
+}
+
+.header {
+    max-width: 1800px;
+    background-color: #2B343E;"
+}
+
+.header ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 22px 0px;
+    color: #F2F2F2;
+    text-align: center;
+}
+
+.button_make_call {
+    background-color: #23B7E5;
+    border: 1px solid #23B7E5;
+    border-radius: 3px;
+    padding: 16px 41px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    font-weight: 700;
+    margin-left: 39px;
+}
+
+ul.dropdown-menu.show {
+    margin-left: 39px;
+}
+
+.dropdown_timer {
+    margin-left: 39px;
+    color: #fff;
+    background-color: #27C24D;
+    border: 1px solid #27C24D;
+    border-radius: 3px;
+    padding: 16px 16px 16px 41px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    font-weight: 700;
+}
+
+.dropdown-toggle:hover {
+    cursor: pointer;
+}
+
+.button_make_call:hover {
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: #2B343E;
+}
+
+nav.navbar.navbar-expand-xl.navbar-light {
+    background-color: #2B343E;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.user_name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 8pt;
+    font-weight: 400;  
+    padding-left: 31px;
+}
+
+.notification_count {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 5.2px;
+    font-weight: 400;
+    margin-left: -13px;
+    margin-top: 11px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    padding-top: 3px;
+    background-color: #FF646E;
+}
+
+i.fa.fa-sort-desc {
+    padding-left: 52px;    
+}
+
+button.navbar-toggler {
+    margin-left: auto;
+}
+
+.dropdown-menu-right {
+    right: unset;
+    left: 0;
+}
+
+.dropdown-menu {
+    min-width: 7rem;
+}
+
+a.nav-link.user_name {
+    padding-top: 30px;
+    text-transform: capitalize;
+    padding-left: 31px;
+} 
+
+/*-------------------------------Supervisor_notes------------------------------*/
+
+.supervisor_notes {
+    background-color: #FFFFFF;
+    max-width: 1695px;
+    padding: 17px 0px;
+}
+
+.supervisor_photo {
+    float: left;
+}
+
+.about_the_supervisor {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 8pt;
+    font-weight: 600;
+    color: #686F7A;
+}
+
+.supervisor_name {
+    color: #23B7E5;
+}
+
+i.fa.fa-angle-left {
+    padding: 0px 21px;
+}
+
+p.about_the_supervisor {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.supervisor_notes_right_line {
+    height: 81px;
+    width: 2px;
+    background-color: #E1E1E1;
+    margin-left: 33px;
+}
+
+.supervisor_notes_text {
+    padding-left: 20px;
+}
+
+.supervisor_notes_text i.fa.fa-angle-right {
+    margin-right: 188px;
+}
+
+.supervisor_notes {
+    padding: 10px 0px;
+    display: flex; 
+    align-items: center;
+}
+
+
+/*------------------------------My activity-------------------------------*/
+
+.my_activity {
+    margin-right: 30px;
+    margin-left: 15px;
+    display: inline-block;
+    width: 585px;
+    height: 346px;
+    background-color: #fff;
+}
+
+
+.ststistic_activity {
+    display: flex;
+    margin-top: 20px;
+}
+
+.my_activity_title {
+    box-shadow: -2px 2px 3px #F6F6F6;
+}
+
+.my_activity_title p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    font-weight: 600;
+    color: #686F7A;
+    padding: 14px 23px;
+}
+
+/*--------------------Start Pie--------------------------*/
+
+.statChartHolder {
+    float: left;
+    margin-top: 33px;
+}
+
+.progress-pie-chart {
+    width:180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #E5E5E5;
+    position: relative;
+}
+
+.progress-pie-chart.gt-50 {
+    background-color: #81CE97;
+}
+
+.ppc-progress {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% - 100px);
+    top: calc(50% - 100px);
+    width: 200px;
+    height: 200px;
+    clip: rect(0, 200px, 200px, 100px);
+}
+
+.ppc-progress .ppc-progress-fill {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% - 90px);
+    top: calc(50% - 90px);
+    width: 180px;
+    height: 180px;
+    clip: rect(0, 90px, 180px, 0);
+    background: #23B7E5;
+    transform: rotate(60deg);
+}
+.gt-50 .ppc-progress {
+    clip: rect(0, 100px, 200px, 0);
+}
+
+.gt-50 .ppc-progress .ppc-progress-fill {
+    clip: rect(0, 200px, 200px, 100px);
+    background: #E5E5E5;
+}
+
+.ppc-percents {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% - 165px/2);
+    top: calc(50% - 165px/2);
+    width: 165px;
+    height: 165px;
+    background: #fff;
+    text-align: center;
+    display: table;
+}
+
+.ppc-percents span {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    font-size: 35px;;
+    font-weight: 400;
+    color: #58595B;
+}
+
+.pcc-percents-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.progress-pie-chart {
+    left: 23px;
+}
+
+/*----------------------Pie-1---------------------------------*/
+.progress-pie-chart_1,.progress-pie-chart_2, .progress-pie-chart_3,.progress-pie-chart_4 {
+    width:180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #E5E5E5;
+    position: relative;
+}
+
+.progress-pie-chart_1 .gt-50, .progress-pie-chart_2 .gt-50, .progress-pie-chart_3 .gt-50,.progress-pie-chart_4 .gt-50 {
+    background-color: #81CE97;
+}
+
+.ppc-progress_1, .ppc-progress_2, .ppc-progress_3, .ppc-progress_4 {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% - 100px);
+    top: calc(50% - 100px);
+    width: 200px;
+    height: 200px;
+    clip: rect(0, 200px, 200px, 100px);
+}
+
+.ppc-progress_1 .ppc-progress-fill_1,.ppc-progress_2 .ppc-progress-fill_2, .ppc-progress_3 .ppc-progress-fill_3, .ppc-progress_4 .ppc-progress-fill_4 {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% - 90px);
+    top: calc(50% - 90px);
+    width: 180px;
+    height: 180px;
+    clip: rect(0, 90px, 180px, 0);
+    background: green;
+    transform: rotate(60deg);
+}
+.gt-50 .ppc-progress_1 {
+    clip: rect(0, 100px, 200px, 0);
+}
+
+.gt-50 .ppc-progress_1 .ppc-progress-fill_1, .gt-50 .ppc-progress_2 .ppc-progress-fill_2,.gt-50 .ppc-progress_3 .ppc-progress-fill_3, .gt-50 .ppc-progress_4 .ppc-progress-fill_4 {
+    clip: rect(0, 200px, 200px, 100px);
+    background: #E5E5E5;
+}
+
+.ppc-percents_1, .ppc-percents_2, .ppc-percents_3, .ppc-percents_4 {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% - 134px/2);
+    top: calc(50% - 134px/2);
+    width: 134px;
+    height: 134px;
+    background: #fff;
+    text-align: center;
+    display: table;
+}
+
+.ppc-percents_1 span, .ppc-percents_2 span, .ppc-percents_3 span, .ppc-percents_4 span {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    font-size: 36pt;
+    font-weight: 700;
+    color: #939598;
+}
+
+.pcc-percents-wrapper_1, .pcc-percents-wrapper_2, .pcc-percents-wrapper_3, .pcc-percents-wrapper_4 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.progress-pie-chart_1, .progress-pie-chart_2, .progress-pie-chart_3, .progress-pie-chart_4{
+    margin: auto;
+}
+
+.ppc-progress_1 .ppc-progress-fill_1 {
+    background-color: #FF646E;
+}
+
+.ppc-progress_2 .ppc-progress-fill_2 {
+    background-color: #27C24D;
+}
+
+.ppc-progress_3 .ppc-progress-fill_3 {
+    background-color: #FA9217;
+}
+
+.ppc-progress_4 .ppc-progress-fill_4 {
+    background-color: #23B7E5;
+}
+
+/*--------------------End Pie--------------------------*/
+
+.statistics_calls_title {
+    width: 100%;
+}
+
+.statistics_calls_title p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    font-weight: 700;
+    color: #686F7A;
+    box-shadow: -2px 2px 3px #F6F6F6;
+}
+
+.my_activity_message {
+    position: relative;
+    left: 54px;
+    display: table-cell;
+}
+
+.my_activity_message ul li {
+    list-style-type: none;
+    margin-top: 13px;
+}
+
+.my_activity_message ul {
+    margin-top: 20px;
+}
+
+.inbound_calls_count {
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    font-weight: 700;
+    background-color: #27C24D;
+    color: #fff;
+    border: 1px solid #0C962E;
+    border-radius: 50%;
+    width: 47px;
+    height: 47px;
+} 
+
+.outbound_calls_count {
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    font-weight: 700;
+    width: 47px;
+    height: 47px;
+    background-color: #BEA0F4;
+    color: #fff;
+    border: 1px solid #9D82CF;
+    border-radius: 50%;
+}
+
+.chats_count {
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    font-weight: 700;
+    width: 47px;
+    height: 47px;
+    background-color: #23B7E5;
+    color: #fff;
+    border: 1px solid #1888AB;
+    border-radius: 50%;
+}
+
+.email_count {
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    font-weight: 700;
+    width: 47px;
+    height: 47px;
+    background-color: #F8D02E;
+    color: #fff;
+    border: 1px solid #DBB418;
+    border-radius: 50%;
+}
+
+.my_activity_message_row .dropright a div {
+    padding-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    font-weight: 400;
+    color: #686F7A;
+}
+
+.statistics_calls {
+    background-color: #fff;
+    padding: 30px 119px;
+}
+
+.pie_text {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 11pt;
+    color: #939598;
+    text-transform: uppercase;
+}
+
+canvas#buyers {
+    width: 585px;
+    height: 377px;
+    margin-left: 15px;
+    float: left;
+    margin-right: 15px;
+}
+
+.canvas_statistic {
+    margin-top: 15px;
+}
+
+
+/*------------------------------Table------------------------------------*/
+
+.table-responsive {
+    font-family: 'Open Sans', sans-serif;
+    color: #686F7A;
+    text-transform: capitalize;
+}
+
+.chat {
+    display: flex;
+    align-items: center;
+    background-color: #23B7E5;
+    border-radius: 50%;
+    width: 82px;
+    height: 82px;
+    position: relative; 
+    bottom: 120px;
+    left: 80%; 
+    border: 1px solid #23B7E5;
+    cursor: pointer;
+}
+
+.message_count {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 9.64pt;
+    border-radius: 50%;
+    background-color: #FF646E;
+    width: 27px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding-left: 9px;
+    left: 55px;
+    top: -8px;
+}
+
+@media (max-width: 1700px) {
+    .supervisor_notes i.fa.fa-angle-right {
+        margin-right: 0px;
+    }    
+    
+    .ststistic_activity {
+        display: block;
+    }
+    
+    .my_activity {
+        margin-right: 0px;
+        width: auto;
+        height: auto;
+        background-color: #fff;
+        display: block;
+    }
+        
+    .statistics_calls {
+        margin-top: 15px;
+    }
+    
+    canvas#buyers {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1200px) {
+    ul.nav.justify-content-end {
+        display: block;
+    }
+    .dropdown_timer {
+        margin: 8px 16px;
+    }
+    
+    .button_make_call {
+        margin: 8px 16px;
+    }
+    
+    .language {
+        margin: 8px 16px;
+    }
+    
+    a.nav-link.user_name {
+        padding-left: 17px;
+    }
+    
+    nav.navbar.navbar-expand-xl.navbar-light {
+        padding:  30px 0px;
+    }
+    
+    .canvas_statistic {
+        margin-left: 120px;
+    }
+    
+    canvas#buyers {
+        width: 94%;
+        float: none;
+    }
+    
+    .row {
+        margin-right: 0px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .my_activity_message {
+        display: inline-flex;
+        left: 0px;
+    }    
+    
+    .my_activity_message ul {
+        padding-left: 30px;
+    }
+    
+    .statistics_calls {
+        padding: 0px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    nav.navbar.navbar-fixed-left {
+        width: 50px;
+    }
+    
+    .bottom_line {
+        width: 50px;
+    }
+    
+    span.iu_connect_logo {
+        right: 7px;
+    }
+    
+    .missedCallsCountValue {
+        top: 200px;
+        right: 1px;
+        width: 20px;
+        height: 20px;
+        padding-top: 4.5px;
+    }
+    
+    .messagesCountValue {
+        top: 300px;
+        right: 1px;
+        width: 20px;
+        height: 20px;
+        padding-top: 4.5px;
+    }
+    
+    .emailmessagesCountValue {
+        top: 400px;
+        right: 1px;
+        width: 20px;
+        height: 20px;
+        padding-top: 4.5px;
+    }
+    
+    .iu_connect_text {
+        font-size: 8px;
+    }
+    
+    .left_line {
+        width: 3px;
+    }
+    
+    .supervisor_notes_text {
+        display: none;
+    }
+    
+    .supervisor_notes i.fa.fa-angle-right {
+        display: none;
+    }
+    
+    .supervisor_notes_right_line {
+        margin-left: 50px;
+    }
+    
+    .my_activity_message_row .dropright a div {
+        width: auto;
+        font-size: 8pt;
+        padding-left: 5px;
+    }
+    
+    .my_activity_message_row .dropright a div i.fa.fa-angle-right {
+        margin-right: 0px;
+    }
+    
+    .progress-pie-chart {
+        width:150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: #E5E5E5;
+        position: relative;
+    }
+    
+    .ppc-progress .ppc-progress-fill {
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        left: calc(50% - 75px);
+        top: calc(50% - 75px);
+        width: 150px;
+        height: 150px;
+        clip: rect(0, 90px, 180px, 0);
+        background: #23B7E5;
+        transform: rotate(60deg);
+    }
+    
+    .ppc-percents {
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        left: calc(50% - 135px/2);
+        top: calc(50% - 135px/2);
+        width: 135px;
+        height: 135px;
+        background: #fff;
+        text-align: center;
+        display: table;
+    }
+
+    .ppc-percents span {
+        font-size: 25px;
+    }
+    
+    .canvas_statistic {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .user_name {
+        font-size: 15px;
+    }
+    
+    .dropdown_timer {
+        padding: 16px;
+        font-size: 10px;
+    }
+    
+    i.fa.fa-sort-desc {
+        padding-left: 10px;
+    }
+    
+    .button_make_call {
+        padding: 16px 33px;
+    }
+    
+    canvas#buyers {
+        width: 94%;
+    }
+    
+    .chat {
+        left: 50%;
+    }
+}
