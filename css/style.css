@@ -716,7 +716,17 @@ canvas#buyers {
     .statistics_calls {
         padding: 0px;
     }
+    .supervisor_notes_text {
+        display: none;
+    }
     
+    .supervisor_notes i.fa.fa-angle-right {
+        display: none;
+    }
+    
+    .supervisor_notes_right_line {
+        margin-left: 50px;
+    } 
 }
 
 @media (max-width: 768px) {
@@ -762,18 +772,6 @@ canvas#buyers {
     
     .left_line {
         width: 3px;
-    }
-    
-    .supervisor_notes_text {
-        display: none;
-    }
-    
-    .supervisor_notes i.fa.fa-angle-right {
-        display: none;
-    }
-    
-    .supervisor_notes_right_line {
-        margin-left: 50px;
     }
     
     .my_activity_message_row .dropright a div {
