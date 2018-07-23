@@ -602,6 +602,7 @@ canvas#buyers {
 /*------------------------------Table------------------------------------*/
 
 .table-responsive {
+    height: 385px;
     font-family: 'Open Sans', sans-serif;
     color: #686F7A;
     text-transform: capitalize;
