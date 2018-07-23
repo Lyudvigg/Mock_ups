@@ -614,7 +614,7 @@ canvas#buyers {
     border-radius: 50%;
     width: 82px;
     height: 82px;
-    position: relative; 
+    position: fixed; 
     bottom: 120px;
     left: 80%; 
     border: 1px solid #23B7E5;
